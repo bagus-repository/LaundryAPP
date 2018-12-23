@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Login progress -->
+
+        <ScrollView
+            android:id="@+id/order_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/spacing_mlarge"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choosen date here..."
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/acme" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_mlarge" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputTanggalTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/inputTanggal"
+                        android:focusableInTouchMode="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/outline_calendar_today_24"
+                        android:drawablePadding="10dp"
+                        android:drawableStart="@drawable/outline_calendar_today_24"
+                        android:drawableTint="@color/colorPrimary"
+                        android:hint="Tanggal"
+                        android:inputType="date"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=" " />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputJamTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/inputJam"
+                        android:focusableInTouchMode="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/outline_access_alarm_24"
+                        android:drawablePadding="10dp"
+                        android:drawableStart="@drawable/outline_access_alarm_24"
+                        android:drawableTint="@color/colorPrimary"
+                        android:hint="Jam (08.00 - 21.00)"
+                        android:inputType="time"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=" " />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputAlamatTL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/inputAlamat"
+                        android:focusableInTouchMode="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/outline_location_city_24"
+                        android:drawablePadding="10dp"
+                        android:drawableStart="@drawable/outline_location_city_24"
+                        android:drawableTint="@color/colorPrimary"
+                        android:hint="Alamat (Rumah / Kantor / Kampus)"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=" " />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:focusableInTouchMode="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/choose_parfum"
+                        android:drawableStart="@drawable/ic_perfume"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@drawable/ic_perfume"
+                        android:drawableTint="@color/colorPrimary"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text=" "
+                        android:id="@+id/inputParfum">
+                    </EditText>
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/inputNote"
+                        android:drawableStart="@drawable/outline_note_add_24"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@drawable/outline_note_add_24"
+                        android:drawableTint="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/add_note_order"
+                        android:inputType="textMultiLine" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_mlarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.Medium.Bold"
+                    android:text="@string/choose_service"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGrp">
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:background="@drawable/btn_rounded_primary"
+                    android:text="@string/NEXT"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/order_form"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:padding="@dimen/spacing_mlarge">-->
+
+            <!--</RelativeLayout>-->
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

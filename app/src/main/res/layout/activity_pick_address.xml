@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnGps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_smlarge"
+            android:clickable="true"
+            android:tint="@android:color/white"
+            app:fabSize="normal"
+            app:layout_anchor="@id/nested_scroll_view"
+            app:layout_anchorGravity="top|right|end"
+            app:rippleColor="@android:color/white"
+            app:srcCompat="@drawable/ic_location" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/toolbar" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/nested_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_large"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:gravity="left"
+                        android:textColor="@color/red_500"
+                        android:text="@string/marker_tips"/>
+
+                    <EditText
+                        android:id="@+id/inputAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:hint="Alamat"
+                        android:maxLines="3"
+                        android:singleLine="false"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:gravity="right"
+                        android:text="@string/tap_to_start_searching"/>
+
+                    <EditText
+                        android:id="@+id/inputNote"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Catatan (opsional)"
+                        android:maxLines="3"
+                        android:singleLine="false"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:gravity="right"
+                        android:text="Catatan (opsional) Cth. patokan rumah, nomor rumah"/>
+
+                    <EditText
+                        android:id="@+id/inputLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Label"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="10sp"
+                        android:gravity="right"
+                        android:text="Label Cth. Rumah, Kantor, Kos, Rumah Pacar"/>
+
+                    <Button
+                        android:id="@+id/btnSave"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_large"
+                        android:background="@drawable/btn_rounded_primary"
+                        android:text="@string/SAVE"
+                        android:textColor="@android:color/white"/>
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

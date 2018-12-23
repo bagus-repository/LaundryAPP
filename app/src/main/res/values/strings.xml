@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Asli Jempol</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyC8ayaBBmy2Vip9RPJIVp3RHb_H6KFdnFI
+    </string>
+
+    <string name="facebook_app_id">205352450150568</string>
+    <string name="fb_login_protocol_scheme">fb205352450150568</string>
+
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="section_format">Section : %1$d</string>
+
+    <string name="about_text">The best android implementation of material UI components. This app implemented based on Google Design Guidelines.
+    </string>
+
+    <!--Welcome slider-->
+    <string name="next">LANJUT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">KLIK!</string>
+
+    <string name="slide_1_title">Driver Siap!</string>
+    <string name="slide_1_desc">Antar jemput laundry gratis... Tanpa syarat!</string>
+
+    <string name="slide_2_title">Voucher Untuk Semua</string>
+    <string name="slide_2_desc">Dapatkan promo menarik dari kami!</string>
+
+    <string name="slide_3_title">1 Pelanggan 1 Mesin Cuci</string>
+    <string name="slide_3_desc">Jangan takut pakaian tercampur ya...</string>
+
+    <string name="slide_4_title">Ssst... 5Kg = 1 Poin</string>
+    <string name="slide_4_desc">Kumpulkan poin sebanyak - banyaknya untuk mendapatkan potongan menarik</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_back">Berjumpa lagi,</string>
+    <string name="sign_in_to_continue">Masuk untuk melanjutkan</string>
+    <string name="forgot_password">Lupa kata sandi ?</string>
+    <string name="login">Masuk</string>
+    <string name="or">- Atau -</string>
+    <string name="login_with_facebook">Masuk dengan Facebook</string>
+    <string name="new_user">Pengguna baru ?</string>
+    <string name="sign_up">Daftar disini</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="password">Kata sandi</string>
+    <string name="re_type_password">Ulangi kata sandi</string>
+    <string name="daftar_sekarang">Daftar Sekarang !</string>
+    <string name="register_with_facebook">Daftar dengan Facebook</string>
+    <string name="reset_password">Reset kata sandi</string>
+    <string name="input_email">Masukan email</string>
+    <string name="promo_news">Promo</string>
+    <string name="welcome">Selamat Datang,</string>
+    <string name="my_order">Order Ku</string>
+    <string name="on_process">Di Proses</string>
+    <string name="complete">Selesai</string>
+    <string name="add_note_order">Catatan untuk order</string>
+    <string name="choose_service">Pilih Layanan</string>
+    <string name="pickup_details">Detail pesanan</string>
+    <string name="ask_by_whatsapp">Tanya Whatsapp</string>
+    <string name="wallet_not_ready_yet">Dompet belum tersedia.</string>
+    <string name="stay_tune_for_next_update">Tunggu untuk update selanjutnya</string>
+    <string name="thank_yout">Terima Kasih !</string>
+    <string name="order_submitted_msg">Pesanan anda telah kami terima.</string>
+    <string name="cart">Keranjang</string>
+    <string name="pickup_at">Titik penjemputan :</string>
+    <string name="payment">Pembayaran</string>
+    <string name="have_a_voucher_code">Punya Kode Voucher ?</string>
+    <string name="order_now">Pesan Sekarang</string>
+    <string name="settings">Pengaturan</string>
+    <string name="change_profile">Ubah Profil</string>
+    <string name="set_up_address">Atur Alamat</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="give_us_feedback">Beri Kami Masukan</string>
+    <string name="sign_out">Keluar</string>
+    <string name="add_new_address">Tambah alamat baru</string>
+    <string name="old_password">Kata sandi lama</string>
+    <string name="change_password">Ubah kata sandi</string>
+    <string name="list_address">Daftar alamat</string>
+    <string name="pick_location">Pilih lokasi</string>
+    <string name="marker_tips">Tips : Tahan dan gulir penanda untuk lokasi presisi</string>
+    <string name="tap_to_start_searching">Tap untuk mulai mencari</string>
+    <string name="address_submitted">Alamat anda tersimpan.</string>
+    <string name="about">Tentang</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="version">Versi</string>
+    <string name="tanggal_jam_pickup"><![CDATA[Tanggal & Jam Pickup]]></string>
+    <string name="description">Deskripsi</string>
+    <string name="alamat_pickup">Alamat Pickup</string>
+    <string name="password_success">Kata sandi berhasil diubah</string>
+    <string name="profile_change_success">Profile berhasil diubah</string>
+    <string name="choose_parfum">Pilih Parfum</string>
+    <string name="pilih_parfum">Parfum terpilih :</string>
+    <string name="about_desc">Asli Jempol Laundry merupakan jasa laundry kiloan berbasis aplikasi yang mengikuti perkembangan jaman dan membuat waktu sibuk anda lebih efisien karena mencuci sendiri itu dapat membuang banyak waktu, listrik, air dan tenaga anda / biaya untuk pembantu rumah tangga yang begitu mahal maka Asli Jempol siap memberikan solusi untuk meringankan pekerjaan anda secara tepat waktu . Kami menyediakan berbagai layanan laundry untuk meringankan rutinitas kegiatan mencuci , setrika pakaian setiap harinya . Untuk anda yang sibuk dan tidak sempat mengantarkan cucian kotor ke workshop kami maka kami memberikan apliksi untuk mempermudah memberikan pelayanan antar jempud free laundry satuan maupun kiloan , bedcover , boneka , dll . setelah anda melakukan orderan maka driver kami akan menerima rincian panggilan anda sesuai tanggal dan jam yang anda tentukan
+
+Asli Jempol Laundry dalam oprasional mengunakan mesin cuci dan pengering moderen ( tanpa dijemur sinar matahari ) . Proses pencucian menggunakan 1 mesin untuk 1 pelanggan ( Tidak dicampur , karena kami mengutamakan Kualitas ) . Diterjen yang kamj gunakan ramah lingkungan bekerja dengan sangat baik pada suhu rendah , lebih bersih dibandingan diterjen rumah tangga biasa dan dilengkapi dengan kemampuan disinfektan . Saat mencuci tidak hanya membersihkan tetapi juga higienis dan disterilkan. Hal ini membuat mesin cuci menjadi hersih dan higinis untuk pelanggan berikutnya.
+
+Asli Jempol adalah laundry dari PT. Asli Jempol Aman Sentosa . Kami menjalankan standarisasi ( SOP ) operasional laundry sesuai prosedur. Asli jempol laundry memberikan anda peluang untuk pengusaha baru yang ingin membuka usaha laundry untuk bergabung bersama berupa franchise</string>
+</resources>

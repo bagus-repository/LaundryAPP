@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_status"
+        android:icon="@drawable/outline_assignment_24"
+        android:title="Status" />
+
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/outline_account_balance_wallet_24"
+        android:title="Dompet" />
+
+    <item
+        android:id="@+id/navigation_promo"
+        android:icon="@drawable/outline_loyalty_24"
+        android:title="@string/promo_news" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/outline_account_circle_24"
+        android:title="Profil" />
+
+</menu>

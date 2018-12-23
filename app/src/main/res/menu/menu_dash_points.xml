@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_riwayat"
+        android:icon="@drawable/baseline_update_24"
+        android:orderInCategory="100"
+        android:title="Riwayat"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_my_kupon"
+        android:icon="@drawable/baseline_redeem_24"
+        android:orderInCategory="100"
+        android:title="Poin Saya"
+        app:showAsAction="always" />
+
+</menu>
